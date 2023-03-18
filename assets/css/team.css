@@ -115,7 +115,8 @@ body {
     height: 20px !important;
 }
 a > img:hover {
-    opacity: 0.7;
+    /* opacity: 0.7; */
+    filter: invert(27%) sepia(98%) saturate(1479%) hue-rotate(179deg) brightness(93%) contrast(101%);
 }
 h2 {
     font-family: 'DM Sans';
